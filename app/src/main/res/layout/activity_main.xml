@@ -8,11 +8,14 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Patryk Wanat"
+        android:layout_height="16dp"
+        android:text="Pierwsza Aplikacja w Androidzie"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@android:color/holo_red_dark" />
 
 </android.support.constraint.ConstraintLayout>
